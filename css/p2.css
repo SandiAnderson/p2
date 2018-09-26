@@ -1,0 +1,16 @@
+
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;}
+
+h1 {
+    font-size: 150%;
+    color: darkslategray;
+}
+
+h2 {
+    font-size: 125%;
+    color: darkslategrey;
+}
