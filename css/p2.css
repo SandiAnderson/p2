@@ -14,3 +14,12 @@ h2 {
     font-size: 125%;
     color: darkslategrey;
 }
+
+.error{
+    background-color: lightsalmon;
+}
+
+.time{
+    padding: 10px;
+    background-color: darkseagreen;
+}
