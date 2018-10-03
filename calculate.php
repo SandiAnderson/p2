@@ -12,7 +12,7 @@ $stats = $_GET;
 $form = new Form($stats);
 
 $errors = $form->validate([
-    'minutes' => 'required|numeric|min:0|max:60',
+    'minutes' => 'required|numeric|min:1|max:60',
     'seconds' => 'required|numeric|min:0|max:60',
     'distance' => 'required',
     'elevation' => 'required',

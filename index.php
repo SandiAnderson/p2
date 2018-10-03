@@ -30,7 +30,7 @@ require 'runCalcLogic.php';
             </label></p>
         <p><label>Distance
                 <select name="distance">
-                    <option value="" <?= (!isset($distance)) ? ' selected' : '' ?>></option>
+                    <option value="" <?= (!isset($distance)) ? ' selected' : '' ?>>Select One</option>
                     <option value="fivek"<?= (isset($distance) && $distance == 'fivek') ? ' selected' : '' ?>>5K
                     </option>
                     <option value="half" <?= (isset($distance) && $distance == 'half') ? ' selected' : '' ?>>Half
@@ -42,7 +42,7 @@ require 'runCalcLogic.php';
             </label></p>
         <p><label>Type of Elevation
                 <select name="elevation">
-                    <option value="" <?= (!isset($elevation)) ? ' selected' : '' ?>></option>
+                    <option value="" <?= (!isset($elevation)) ? ' selected' : '' ?>>Select One</option>
                     <option value="flat" <?= (isset($elevation) && $elevation == 'flat') ? ' selected' : '' ?>>Fast and
                         Flat
                     </option>
@@ -54,11 +54,12 @@ require 'runCalcLogic.php';
                     </option>
                 </select>
             </label></p>
-        <p><label>Are you training?
-                <input type="radio" name="training"
-                       value="yes" <?= (isset($training) && $training == 'yes') ? ' checked' : '' ?>> Yes
-                <input type="radio" name="training"
-                       value="no" <?= (isset($training) && $training == 'no') ? ' checked' : '' ?> > No
+        <p>Are you training?
+            <label for="yes"><input type="radio" name="training" id="yes"
+                                    value="yes" <?= (isset($training) && $training == 'yes') ? ' checked' : '' ?>> Yes
+            </label>
+            <label for="no"><input type="radio" name="training" id="no"
+                                   value="no" <?= (isset($training) && $training == 'no') ? ' checked' : '' ?> > No
             </label></p>
         <input type="submit" value="Calculate">
     </form>
