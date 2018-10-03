@@ -63,7 +63,7 @@ class Calctime
 
         #now for the training
         if ($this->training == 'yes') {
-            $time = $time - time * (.25);
+            $time = $time - $time * (.25);
         }
         return round($time, 2);
 
