@@ -63,7 +63,7 @@ require 'runCalcLogic.php';
             </label></p>
         <input type="submit" value="Calculate">
     </form>
-
+<hr>
     <?php if (isset($time) && $time > 0) : ?>
         <div class='time'>Your anticipated completion time is <?= $time ?> minutes</div>
     <?php endif; ?>

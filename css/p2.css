@@ -21,7 +21,8 @@ h2 {
 }
 
 .error {
-    background-color: lightsalmon;
+    padding: 10px;
+    background-color: peachpuff;
 }
 
 .time {
