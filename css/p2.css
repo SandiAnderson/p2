@@ -1,9 +1,10 @@
 
 body {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 100%;
     margin-left: 10%;
-    margin-right: 10%;}
+    margin-right: 10%;
+}
 
 h1 {
     font-size: 150%;
@@ -15,11 +16,15 @@ h2 {
     color: darkslategrey;
 }
 
-.error{
+.req {
+    color: red;
+}
+
+.error {
     background-color: lightsalmon;
 }
 
-.time{
+.time {
     padding: 10px;
     background-color: darkseagreen;
 }

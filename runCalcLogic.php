@@ -10,7 +10,7 @@ session_start();
 
 
 $stats = $_SESSION['stats'] ?? Null;
-if($stats){
+if ($stats) {
 
     $minutes = $stats['minutes'];
     $seconds = $stats['seconds'];

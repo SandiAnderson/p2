@@ -25,7 +25,7 @@ $seconds = $form->get('seconds');
 $distance = $form->get('distance');
 $elevation = $form->get('elevation');
 $training = $form->get('training');
-$time=0;
+$time = 0;
 
 if (!$hasErrors) {
 
